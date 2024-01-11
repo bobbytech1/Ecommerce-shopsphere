@@ -1,0 +1,50 @@
+[
+    {
+        "id": 0,
+        "img": "assests/Milk-Powder-Cool-Cow-Dano-150G-849.99-300x300.jpg",
+        "name": "Dano Powder Milk",
+        "price": "&#x20A6;5000"
+    },
+    {
+        "id": 1,
+        "img": "assests/Ralph Lauren Surplus Cargo Trouser.webp",
+        "name": "Ralph Cargo Trousers",
+        "price": "&#x20A6;15000"
+    },
+    {
+        "id": 2,
+        "img": "assests/Smart Watch 1.webp",
+        "name": "Smart Watch",
+        "price": "&#x20A6;25000"
+    },
+    {
+        "id": 3,
+        "img": "assests/Body_Care_Set-transformed.png",
+        "name": "Body Care Set",
+        "price": "&#x20A6;35000"
+    },
+    {
+        "id": 4,
+        "img": "assests/Huawei nova 11.png",
+        "name": "Huawei Nova 11",
+        "price": "&#x20A6;18000"
+    },
+    {
+        "id": 5,
+        "img": "assests/Apple 14-inch Mackbook Pro.png",
+        "name": "Apple 14-inch Macbook pro",
+        "price": "&#x20A6;5000000"
+    },
+    {
+        "id": 6,
+        "img": "assests/Tecno Ebod_Buds3.webp",
+        "name": "Tecno Ebod Buds3",
+        "price": "&#x20A6;35000"
+    },
+    {
+        "id": 7,
+        "img": "assests/iphone 15.jpeg",
+        "name": "Iphone 15",
+        "price": "&#x20A6;2.5M"
+    }
+    ]

@@ -1,0 +1,1016 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@200;300;400&family=Rubik+Wet+Paint&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style: none;
+}
+:root {
+  --font1: "Open Sans", sans-serif;
+  --font2: "Poppins", sans-serif;
+  --font3: "Rubik Wet Paint", sans-serif;
+  --color: #46eab2;
+  --color1: #00eb79;
+  --color2: #007451;
+}
+
+.marq {
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+  background-color: white;
+  padding: 10px 150px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-transform: capitalize;
+  font-family: var(--font1);
+  color: var(--color2);
+}
+
+header {
+  position: fixed;
+  top: 50px;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 15px 0 10px;
+  background-color: var(--color);
+  font-family: var(--font1);
+  width: 100%;
+}
+.logo-nav {
+  display: flex;
+  gap: 80%;
+}
+.logo-nav img {
+  height: 9vh;
+  cursor: pointer;
+}
+
+.logo-nav > ul {
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.logo-nav > ul:hover {
+  color: gray;
+  transition: 0.8s ease-in-out;
+}
+
+.searchbar {
+  width: 40%;
+  margin: 0 0 0 100px;
+}
+.search {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  /* border: 1px solid black; */
+  padding: 0px 0px 0 30px;
+  background-color: white;
+  width: 100%;
+  border-radius: 5px;
+}
+.search > input {
+  width: 88%;
+  padding: 10px 10px;
+  border: none;
+  outline: none;
+}
+.search > input::placeholder {
+  font-family: var(--font1);
+  font-size: 15px;
+}
+.search > button {
+  background-color: gainsboro;
+  border: none;
+  cursor: pointer;
+  padding: 5px 20px 5px 15px;
+  border-radius: 0 5px 5px 0;
+}
+
+.nav2 > ul {
+  text-transform: capitalize;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+}
+.nav2 > ul:hover {
+  color: gray;
+  transition: 0.8s ease-in-out;
+}
+.menu {
+  display: none;
+}
+.nav3 {
+  /* border: 1px solid black; */
+  position: relative;
+  width: 8%;
+}
+.nav3 > ul {
+  display: flex;
+  gap: 20px;
+}
+
+.nav3 > ul > button {
+  background-color: transparent;
+  border: none;
+}
+
+/* --- perry's code --- */
+
+.nav3Items > p {
+  font-size: 9px;
+  height: 13px;
+  width: 13px;
+  color: #fff;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  position: absolute;
+  right: 77px;
+  top: 2px;
+  font-weight: 800;
+}
+#cart-btn {
+  cursor: pointer;
+}
+#cart-btn:hover {
+  color: gray;
+  transition: 0.8s ease-in-out;
+}
+#menu-user {
+  cursor: pointer;
+}
+#menu-user:hover {
+  color: gray;
+  transition: 0.8s ease-in-out;
+}
+.hero-container {
+ 
+  width: 100%;
+    height: 90vh;
+    position: relative;
+}
+.hero {
+  /* margin-right: 100px; */
+  /* width: 100%; */
+}
+.hero-nav {
+  background-color: #2e8f6e;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 1% 6% 1% 2%;
+  margin: 8% 0 1% 0;
+  font-family: var(--font2);
+  text-transform: capitalize;
+  color: white;
+}
+.store > a > ul {
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+  gap: 10px;
+  color: white;
+}
+.store > a > ul:hover {
+  border-bottom: 1px solid white;
+  transition: 0.2s ease-in-out;
+}
+.laptops > a > ul {
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+  gap: 10px;
+  color: white;
+}
+.laptops > a > ul:hover {
+  border-bottom: 1px solid white;
+  transition: 0.2s ease-in-out;
+}
+.phones > a > ul {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+}
+.phones > a > ul:hover {
+  border-bottom: 1px solid white;
+  transition: 0.2s ease-in-out;
+}
+.tablets > a > ul {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+}
+.tablets > a > ul:hover {
+  border-bottom: 1px solid white;
+  transition: 0.2s ease-in-out;
+}
+.gadgets > a > ul {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+}
+.gadgets > a > ul:hover {
+  border-bottom: 1px solid white;
+  transition: 0.2s ease-in-out;
+}
+.beauty-prod > a > ul {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+}
+.beauty-prod > a > ul:hover {
+  border-bottom: 1px solid white;
+  transition: 0.2s ease-in-out;
+}
+.shirts > a > ul {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+}
+.shirts > a > ul:hover {
+  border-bottom: 1px solid white;
+  transition: 0.2s ease-in-out;
+}
+.trousers > a > ul {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+}
+.trousers > a > ul:hover {
+  border-bottom: 1px solid white;
+  transition: 0.2s ease-in-out;
+}
+.clothing > a > ul {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+}
+.clothing > a > ul:hover {
+  border-bottom: 1px solid white;
+  transition: 0.2s ease-in-out;
+}
+.food > a > ul {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+}
+.food > a > ul:hover {
+  border-bottom: 1px solid white;
+  transition: 0.2s ease-in-out;
+}
+.groceries > a > ul {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+}
+.groceries > a > ul:hover {
+  border-bottom: 1px solid white;
+  transition: 0.2s ease-in-out;
+}
+.others > a > ul {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+}
+.others > a > ul:hover {
+  border-bottom: 1px solid white;
+  transition: 0.2s ease-in-out;
+}
+
+.videobg{
+  width: 100%; 
+}
+.videobg video{
+  margin-top: 5%;
+   width: 100%;
+   position: absolute;
+   z-index: -999;
+   height: 100%;
+   object-fit: cover;
+}
+/* .carousel-images {
+  margin: 0 5% 0 3%;
+}
+.carousel-images > img {
+  height: 70vh;
+  width: 160%;
+  border-radius: 5px;
+} */
+/* .hero-gif {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  gap: 15px;
+  padding-left: 20%;
+  align-items: right;
+}
+.hero-gif > img {
+  height: 35vh;
+  border-radius: 5px;
+} */
+
+.products {
+  padding: 130px 40px 0 40px;
+  width: 100%;
+}
+
+.tsp {
+  width: 100%;
+  /* border: 2px solid black; */
+}
+
+.tsp > h1 {
+  padding: 10px 0 10px 20px;
+  font-family: var(--font1);
+  text-transform: capitalize;
+  font-size: 18px;
+  border-radius: 6px 6px 0 0;
+  background-color: var(--color);
+}
+.tsp-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  width: 100%;
+  padding: 20px 20px 20px 20px;
+  background-color: white;
+}
+.tsp-card {
+  padding: 20px 20px 20px 20px;
+  /* background-color: aquamarine; */
+  border-radius: 5px;
+  box-shadow: 13px 11px 22px 0px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+.image {
+  display: flex;
+  justify-content: center;
+}
+.image > img {
+  height: 30vh;
+}
+.txt {
+  padding-top: 8px;
+  font-family: var(--font2);
+}
+.txt > p {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 17px;
+}
+.sub-txt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 4px;
+}
+.sub-txt > span {
+  font-weight: 600;
+  color: red;
+}
+.sub-txt > button {
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 5px 10px;
+  background-color: var(--color1);
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.sub-txt > button:hover {
+  background-color: transparent;
+  color: black;
+  transition: 0.5s ease-in-out;
+  border: 1px solid var(--color1);
+}
+#addToCart {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.discount-prod {
+  padding: 10px 40px 0 40px;
+  width: 100%;
+}
+
+.fsp {
+  display: flex;
+  align-items: center;
+  padding: 5px 0 5px 20px;
+  border-radius: 7px 7px 0 0;
+  background-color: var(--color);
+  font-family: var(--font1);
+  text-transform: capitalize;
+  gap: 29%;
+}
+.fsp-tag {
+  display: flex;
+  align-items: center;
+}
+.fsp-tag > h2 {
+  font-size: 22px;
+  font-weight: 700;
+}
+.fsp-timer {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+}
+.fsp-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  width: 100%;
+  padding: 20px 20px 20px 20px;
+}
+.fsp-card {
+  padding: 20px 20px 20px 20px;
+  border-radius: 5px;
+  box-shadow: 13px 11px 22px 0px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  font-family: var(--font2);
+  width: 100%;
+}
+.fsp-image {
+  display: flex;
+  justify-content: center;
+}
+.fsp-image > img {
+  height: 30vh;
+}
+.fsp-txt > p {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 17px;
+}
+.fsp-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 5px;
+}
+.fsp-price > p {
+  color: red;
+  font-weight: 600;
+}
+.fsp-price > span {
+  background-color: #46eab2;
+  padding: 2px 5px 2px 5px;
+  border-radius: 5px;
+}
+#dcnt {
+  text-decoration: line-through;
+  color: gray;
+}
+.fsp-btn {
+  display: flex;
+  justify-content: center;
+}
+.fsp-btn > button {
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 5px 10px;
+  background-color: var(--color1);
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.fsp-btn > button:hover {
+  background-color: transparent;
+  color: black;
+  transition: 0.5s ease-in-out;
+  border: 1px solid var(--color1);
+}
+
+.chop-christmas-deals {
+  padding: 10px 40px 0 40px;
+  width: 100%;
+}
+.chop-christmas-sales {
+  display: flex;
+  align-items: center;
+  padding: 5px 0 5px 20px;
+  border-radius: 7px 7px 0 0;
+  background-color: var(--color);
+  font-family: var(--font1);
+  text-transform: capitalize;
+  gap: 18%;
+}
+.chop-christmas-sales-tag {
+  display: flex;
+  align-items: center;
+}
+.chop-christmas-timer {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.chop-christmas-sales-cards {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 20px;
+  width: 100%;
+  padding: 20px 20px 20px 20px;
+  overflow-x: scroll;
+}
+
+.chop-christmas-sales-cards::-webkit-scrollbar {
+  width: 5px;
+  background-color: lightgray;
+}
+.chop-christmas-sales-cards::-webkit-scrollbar-thumb {
+  background-color: var(--color1);
+  border-radius: 50px;
+  width: 30px;
+}
+
+.chop-christmas-sales-card {
+  padding: 20px 20px 20px 20px;
+  border-radius: 5px;
+  box-shadow: 13px 11px 22px 0px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  font-family: var(--font2);
+  width: 100%;
+}
+.chop-christmas-sales-image {
+  display: flex;
+  justify-content: center;
+}
+.chop-christmas-sales-image > img {
+  height: 30vh;
+}
+.chop-christmas-sales-txt > p {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 17px;
+}
+.chop-christmas-sales-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 5px;
+}
+.chop-christmas-sales-price > p {
+  color: red;
+  font-weight: 600;
+}
+.chop-christmas-sales-price > span {
+  background-color: #46eab2;
+  padding: 2px 5px 2px 5px;
+  border-radius: 5px;
+}
+#discnt {
+  text-decoration: line-through;
+  color: gray;
+}
+.chop-christmas-sales-btn {
+  display: flex;
+  justify-content: center;
+}
+.chop-christmas-sales-btn > button {
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 5px 10px;
+  background-color: var(--color1);
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.chop-christmas-sales-btn > button:hover {
+  background-color: transparent;
+  color: black;
+  transition: 0.5s ease-in-out;
+  border: 1px solid var(--color1);
+}
+
+.banner-images {
+  display: flex;
+  gap: 2%;
+  padding: 2% 2%;
+  margin: 30px 40px 30px 40px;
+  background-color: #faf3e6;
+}
+.banner-images > img {
+  width: 50%;
+  height: 40vh;
+  border-radius: 5px;
+}
+
+.collections {
+  padding: 10px 40px 0 40px;
+  width: 100%;
+}
+.shop-collections-tag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+  font-family: var(--font1);
+  padding: 2px 0 2px 20px;
+  border-radius: 7px 7px 0 0;
+  background-color: var(--color);
+  font-family: var(--font1);
+  text-transform: capitalize;
+}
+.shop-collections-tag > img {
+  height: 10vh;
+}
+
+.deals-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  background-color: white;
+  padding: 10px 10px 10px 10px;
+}
+.deals-card {
+  background-color: white;
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 13px 11px 22px 0px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  
+  overflow: hidden;
+}
+
+.deals-bgrnd {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  transition: 0.1s ease-in;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(./assests/Gadgets/Laptops/Apple\ 15-inch\ Mackbook\ Air.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: var(--font2);
+  height: 30vh;
+}
+.deals-bgrnd:hover {
+  transform: scale(1.2);
+}
+.deals-bgrnd > h3 {
+  color: white;
+}
+
+.phone {
+  padding: 10px 40px 0 40px;
+  width: 100%;
+}
+.phone-deals {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+  font-family: var(--font1);
+  padding: 5px 0 5px 20px;
+  border-radius: 7px 7px 0 0;
+  background-color: var(--color);
+  font-family: var(--font1);
+  gap: 10px;
+  text-transform: capitalize;
+}
+
+.phone-deals-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  background-color: white;
+  padding: 10px 10px 10px 10px;
+}
+
+.phone-deals-card {
+  background-color: white;
+  width: 100%;
+  overflow: hidden;
+  box-shadow: 13px 11px 22px 0px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  
+}
+
+
+.phone-deals-bgrnd {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.1s ease-in;
+  border-radius: 5px;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+  url(./assests/Gadgets/Mobile-Phones/Redmi\ Note\ 10.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: var(--font2);
+  height: 50vh;
+  text-transform: capitalize;
+}
+.phone-deals-bgrnd:hover {
+  transform: scale(1.2);
+}
+.phone-deals-bgrnd > h3 {
+  color: white;
+}
+.laptop {
+  padding: 10px 40px 0 40px;
+  width: 100%;
+}
+.laptop-deals {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+  font-family: var(--font1);
+  padding: 5px 0 5px 20px;
+  border-radius: 7px 7px 0 0;
+  background-color: var(--color);
+  font-family: var(--font1);
+  gap: 10px;
+  text-transform: capitalize;
+}
+
+.laptop-deals-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  background-color: white;
+  padding: 10px 10px 10px 10px;
+}
+
+.laptop-deals-card {
+  background-color: white;
+  width: 100%;
+  overflow: hidden;
+  box-shadow: 13px 11px 22px 0px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: 0.1s ease-in;
+}
+
+
+.laptop-deals-bgrnd {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(./assests/Gadgets/Laptops/Apple\ 16-inch\ Mackbook\ Pro.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: var(--font2);
+  height: 50vh;
+  transition: 0.1s ease-in;
+  text-transform: capitalize;
+}
+
+.laptop-deals-bgrnd:hover {
+  transform: scale(1.2);
+}
+.laptop-deals-bgrnd > h3 {
+  color: white;
+}
+.clothes {
+  padding: 10px 40px 0 40px;
+  width: 100%;
+}
+.clothes-deals {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+  font-family: var(--font1);
+  padding: 5px 0 5px 20px;
+  border-radius: 7px 7px 0 0;
+  background-color: var(--color);
+  font-family: var(--font1);
+  gap: 10px;
+  text-transform: capitalize;
+}
+
+.clothes-deals-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  background-color: white;
+  padding: 10px 10px 10px 10px;
+}
+
+.clothes-deals-card {
+  background-color: white;
+  width: 100%;
+  overflow: hidden;
+  box-shadow: 13px 11px 22px 0px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: 0.1s ease-in;
+}
+
+.clothes-deals-bgrnd {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.1s ease-in;
+  border-radius: 5px;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(./assests/Clothes/Correctshapers\ varsity\ jacket.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: var(--font2);
+  height: 50vh;
+  text-transform: capitalize;
+}
+.clothes-deals-bgrnd:hover {
+  transform: scale(1.1);
+}
+
+.clothes-deals-bgrnd > h3 {
+  color: white;
+}
+.closing-banner {
+  display: flex;
+  gap: 2%;
+  padding: 2% 2%;
+  margin: 30px 40px 30px 40px;
+  background-color: #faf3e6;
+}
+.closing-banner > img {
+  width: 50%;
+  height: 40vh;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: var(--color);
+  padding: 20px 0 20px 50px;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.footer-column {
+  flex: 1 1 250px; /* Adjust the width as needed */
+  margin: 10px;
+  text-align: left;
+}
+
+h4 {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  font-family: var(--font1);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 5px;
+  font-family: var(--font2);
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.copyright {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 0.9em;
+  font-family: var(--font2);
+}
+
+.copyright p {
+  margin: 0;
+}
+
+.nav4 {
+  display: none;
+  position: absolute;
+  top: 140px;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  transition: 0.5s ease-in-out;
+  z-index: 1;
+}
+
+.nav4 ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.nav4 li a {
+  display: block;
+  padding: 12px 16px;
+  text-decoration: none;
+  color: #333;
+}
+
+.cancel {
+  text-align: right;
+  cursor: pointer;
+  padding: 8px;
+}
+
+.dropdown {
+  list-style: none;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 50px;
+  transition: 0.10s ease-in-out;
+  z-index: 1;
+  background-color: #fff;
+  min-width: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content li {
+  padding: 8px 12px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+ 
+}
+
+@media (max-width:768px) {
+  .nav4 {
+      position: relative; /* Change position to fit in the document flow */
+      display: none; /* Initially hide the menu */
+      width: 100%; /* Full width when displayed */
+  }
+
+  .nav4 ul {
+      text-align: center; /* Center-align menu items */
+  }
+
+  .nav4 li {
+      border-bottom: 1px solid #ddd; /* Add separation between menu items */
+  }
+
+  .nav4 li:last-child {
+      border-bottom: none; /* Remove border from the last menu item */
+  }
+
+  .nav4 li a {
+      display: block;
+      padding: 12px 0;
+  }
+
+  .cancel {
+      display: block;
+      text-align: right;
+      cursor: pointer;
+      padding: 8px;
+  }
+}

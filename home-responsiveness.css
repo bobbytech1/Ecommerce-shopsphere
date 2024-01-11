@@ -1,0 +1,270 @@
+@media (max-width:320px) {
+    header{
+        padding: 0px 15px 20px 10px;
+    }
+}
+@media (max-height:485px) {
+    header{
+        padding: 5px 15px 5px 10px;
+    }
+}
+@media (max-height:350px) {
+    header{
+        padding: 10px 15px 10px 10px;
+    }
+}
+
+@media (max-width:500px) {
+    .marq{
+        padding: 10px 50px;
+        font-size: 10px;
+    }
+}
+
+
+@media (max-height:485px) {
+    .logo-nav img{
+        height: 10vh;
+    }
+}
+@media (max-height:395px) {
+    .logo-nav img{
+        height: 15vh;
+    }
+}
+/* @media (max-height:325px) {
+    .logo-nav img{
+        height: 12vh;
+    }
+} */
+
+@media (max-width:500px) {
+    .logo-nav img {
+        height: 7vh;
+        cursor: pointer;
+      }
+}
+@media (max-width:320px) {
+    .logo-nav img {
+        height: 9vh;
+        cursor: pointer;
+      }
+}
+
+@media (max-width:948px) {
+    .logo-nav {
+        display: flex;
+        gap: 45%;
+    }
+}
+
+@media (max-width:768px) {
+    .logo-nav > ul {
+        display: none;
+        align-items: center;
+        text-transform: capitalize;
+        font-size: 13px;
+        font-weight: 600;
+        cursor: pointer;
+      }
+}
+
+@media (max-width:768px) {
+    .searchbar {
+        width: 40%;
+        margin: 0 100px 0 100px;
+      }
+}
+
+@media (max-width:600px) {
+    .searchbar {
+        display: none;
+        width: 40%;
+        margin: 0 50px 0 100px;
+      }
+}
+
+@media (max-width:768px) {
+    .nav2 > ul {
+        text-transform: capitalize;
+        cursor: pointer;
+        font-size: 13px;
+        font-weight: 600;
+        display: none;
+      }
+}
+
+@media (max-width:768px) {
+    .menu{
+        display: block;
+      }
+}
+@media (max-width:600px) {
+    .menu{
+        padding: 0 0 0 62%;
+      }
+}
+@media (max-width:480px) {
+    .menu{
+        padding: 0 0 0 55%;
+      }
+}
+@media (max-width:400px) {
+    .menu{
+        padding: 0 0 0 48%;
+      }
+}
+@media (max-width:400px) {
+    .menu{
+        padding: 0 0 0 41%;
+      }
+}
+@media (max-width:300px) {
+    .menu{
+        padding: 0 0 0 20%;
+      }
+}
+
+@media (max-width:768px) {
+    .nav3 {
+        /* border: 1px solid black; */
+        position: relative;
+        width: 11%;
+      }
+}
+@media (max-width:480px) {
+    .nav3 {
+        /* border: 1px solid black; */
+        position: relative;
+        width: 15%;
+      }
+}
+@media (max-width:360px) {
+    .nav3 {
+        /* border: 1px solid black; */
+        position: relative;
+        width: 18%;
+      }
+}
+@media (max-width:300px) {
+    .nav3 {
+        /* border: 1px solid black; */
+        position: relative;
+        width: 25%;
+      }
+}
+
+@media (max-width:768px) {
+    .nav3 > ul {
+        display: flex;
+        gap: 10px;
+      }
+}
+@media (max-width:700px) {
+    .nav3 > ul {
+        display: flex;
+        gap: 5px;
+      }
+}
+@media (max-width:668px) {
+    .nav3 > ul {
+        display: flex;
+        gap: 10px;
+      }
+}
+
+@media (max-width:1218px) {
+    .nav3Items > p{
+        position: absolute;
+        right: 68px;
+        top: 2px;
+    }
+}
+@media (max-width:1115px) {
+    .nav3Items > p{
+        position: absolute;
+        right: 55px;
+        top: 2px;
+    }
+}
+@media (max-width:948px) {
+    .nav3Items > p{
+        position: absolute;
+        right: 42px;
+        top: 2px;
+    }
+}
+@media (max-width:768px) {
+    .nav3Items > p{
+        position: absolute;
+        right: 50px;
+        top: 2px;
+    }
+}
+@media (max-width:668px) {
+    .nav3Items > p{
+        position: absolute;
+        right: 40px;
+        top: 2px;
+    }
+}
+@media (max-width:545px) {
+    .nav3Items > p{
+        position: absolute;
+        right: 30px;
+        top: 2px;
+    }
+}
+@media (max-width:480px) {
+    .nav3Items > p{
+        position: absolute;
+        right: 35px;
+        top: 2px;
+    }
+}
+@media (max-width:400px) {
+    .nav3Items > p{
+        position: absolute;
+        right: 25px;
+        top: 2px;
+    }
+}
+@media (max-width:300px) {
+    .nav3Items > p{
+        position: absolute;
+        right: 35px;
+        top: 2px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer-column {
+      flex-basis: 100%;
+    }
+  }
+
+@media screen and (max-width: 480px) {
+    footer {
+        background-color: var(--color);
+        padding: 20px 0 20px 0px;
+        text-align: center;
+      }
+
+    .footer-column {
+      flex-basis: 100%;
+      margin: 10px;
+      text-align: center;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .copyright {
+      font-size: 0.8em;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .copyright {
+      font-size: 0.7em;
+    }
+  }

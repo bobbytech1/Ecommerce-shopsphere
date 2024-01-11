@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./home.css">
+    <link rel="stylesheet" href="./home-responsive.css">
+    <link rel="stylesheet" href="./cart.css">
+
+    <title>ShopSphere</title>
+</head>
+
+<body>
+    <div class="marq">
+        <marquee behavior="" direction="left">ShopSphere Black Friday 2023! 50% Off For Every Products! Offers are valid
+            from December 23rd to
+            January 5th, 2024.</marquee>
+    </div>
+
+    <header>
+        <div class="logo-nav">
+            <a href="./home.html"><img src="./assests/shopsphere-logo-w.png" alt=""></a>
+            <ul class="dropdown">
+                <li>products</li><iconify-icon icon="formkit:down" style="font-size: 10px;"></iconify-icon>
+                <ul class="dropdown-content">
+                    <li><a href="#">Gadgets</a></li>
+                    <li><a href="#">Groceries</a></li>
+                    <li><a href="#">Beauty</a></li>
+                    <li><a href="#">Clothes</a></li>
+                    <!-- Add more items as needed -->
+                </ul>
+            </ul>
+        </div>
+
+
+        <div class="searchbar">
+            <div class="search">
+
+                <input type="search" placeholder="Search for categories....." />
+                <button><iconify-icon icon="material-symbols-light:search" id="search-btn"
+                        style="font-size: 23px; cursor: pointer;"></iconify-icon></i></button>
+            </div>
+        </div>
+
+        <div class="nav2">
+            <ul>
+                <li>promo</li>
+            </ul>
+        </div>
+
+        <div class="menu">
+            <iconify-icon icon="gg:menu-round" id="ham" style="font-size: 25px;"></iconify-icon>
+        </div>
+
+        <div class="nav3 ">
+            <ul class="nav3Items">
+                <p id="cartNum">0</p>
+                <a href="cart3.html"><iconify-icon icon="solar:cart-3-bold" class="icon-cart" id="cart-btn"
+                        style="font-size: 25px; color: white;"></iconify-icon></a>
+                <iconify-icon icon="mdi:account" id="menu-user" style="font-size: 25px;"></iconify-icon>
+            </ul>
+        </div>
+
+    </header>
+
+    <nav class="nav4">
+        <ul>
+            <li><a href="">Our Products</a></li>
+            <li><a href="">Click to search</a></li>
+            <li><a href="">Carts</a></li>
+            <li><a href="">Login</a></li>
+        </ul>
+        <p class="cancel" id="cancelBtn"><iconify-icon icon="material-symbols-light:cancel-outline"></iconify-icon></p>
+    </nav>
+
+    <section class="hero-container">
+
+       
+
+            <div class="videobg">
+                <video autoplay muted loop>
+                    <source src="./assests/shosphere logo3.mp4">
+                </video>
+            </div>  
+           
+
+       
+
+    </section>
+
+    <section class="products">
+        <div class="tsp">
+            <h1>top selling products</h1>
+            <div class="tsp-cards">
+                
+                
+            </div>
+        </div>
+    </section>
+
+    <section class="discount-prod">
+        <div class="fsp">
+            <div class="fsp-tag">
+                <iconify-icon icon="mdi:tag-outline" style="font-size: 35px; font-weight: 600;"></iconify-icon>
+                <h2>flash sales</h2>
+            </div>
+            <div class="fsp-timer">
+                <span>time left:</span>
+                <span id="timer"></span>
+            </div>
+            
+        </div>
+        <div class="fsp-cards">
+            <div class="fsp-card">
+                <div class="fsp-image">
+                    <img src="./assests/Gadgets/Mobile-Phones/Huawei nova y71.png" alt="">
+                </div>
+                <div class="fsp-txt">
+                    <p>huawei nova y71</p>
+                    <div class="fsp-price">
+                        <p>&#x20A6;2.5M</p>
+                        <span>-50%</span>
+                    </div>
+                    <span id="dcnt">&#x20A6;3m</span>
+                </div>
+                <div class="fsp-btn">
+                    <button id="addToCart">add to cart<iconify-icon
+                        icon="gridicons:add-outline" style="font-size: 15px;"></iconify-icon></button>
+                </div>
+            </div>
+            <div class="fsp-card">
+                <div class="fsp-image">
+                    <img src="./assests/Gadgets/Mobile-Phones/iphone 15.jpeg" alt="">
+                </div>
+                <div class="fsp-txt">
+                    <p>iphone 15</p>
+                    <div class="fsp-price">
+                        <p>&#x20A6;2M</p>
+                        <span>-50%</span>
+                    </div>
+                    <span id="dcnt">&#x20A6;2.5m</span>
+                </div>
+                <div class="fsp-btn">
+                    <button id="addToCart">add to cart<iconify-icon
+                        icon="gridicons:add-outline" style="font-size: 15px;"></iconify-icon></button>
+                </div>
+            </div>
+            <div class="fsp-card">
+                <div class="fsp-image">
+                    <img src="./assests/Gadgets/Mobile-Phones/Tecno Camon 20 Mr Doodle Edition.webp" alt="">
+                </div>
+                <div class="fsp-txt">
+                    <p>tecno camon 20 d edition</p>
+                    <div class="fsp-price">
+                        <p>&#x20A6;150000</p>
+                        <span>-50%</span>
+                    </div>
+                    <span id="dcnt">&#x20A6;200000</span>
+                </div>
+                <div class="fsp-btn">
+                    <button id="addToCart">add to cart<iconify-icon
+                        icon="gridicons:add-outline" style="font-size: 15px;"></iconify-icon></button>
+                </div>
+            </div>
+            <div class="fsp-card">
+                <div class="fsp-image">
+                    <img src="./assests/Gadgets/Mobile-Phones/Samsung Galaxy s22 ultra.jpg" alt="">
+                </div>
+                <div class="fsp-txt">
+                    <p>samsung galaxy s22 ultra</p>
+                    <div class="fsp-price">
+                        <p>&#x20A6;3M</p>
+                        <span>-50%</span>
+                    </div>
+                    <span id="dcnt">&#x20A6;3.5m</span>
+                </div>
+                <div class="fsp-btn">
+                    <button id="addToCart">add to cart<iconify-icon
+                        icon="gridicons:add-outline" style="font-size: 15px;"></iconify-icon></button>
+                </div>
+            </div>
+            <div class="fsp-card">
+                <div class="fsp-image">
+                    <img src="./assests/Gadgets/Mobile-Phones/Nokia C32.jpg" alt="">
+                </div>
+                <div class="fsp-txt">
+                    <p>nokia c32</p>
+                    <div class="fsp-price">
+                        <p>&#x20A6;3M</p>
+                        <span>-50%</span>
+                    </div>
+                    <span id="dcnt">&#x20A6;3.5m</span>
+                </div>
+                <div class="fsp-btn">
+                    <button id="addToCart">add to cart<iconify-icon
+                        icon="gridicons:add-outline" style="font-size: 15px;"></iconify-icon></button>
+                </div>
+            </div>
+            <div class="fsp-card">
+                <div class="fsp-image">
+                    <img src="./assests/Gadgets/Mobile-Phones/Itel s23+.png" alt="">
+                </div>
+                <div class="fsp-txt">
+                    <p>itel s23+</p>
+                    <div class="fsp-price">
+                        <p>&#x20A6;100000</p>
+                        <span>-50%</span>
+                    </div>
+                    <span id="dcnt">&#x20A6;150000</span>
+                </div>
+                <div class="fsp-btn">
+                    <button id="addToCart">add to cart<iconify-icon
+                        icon="gridicons:add-outline" style="font-size: 15px;"></iconify-icon></button>
+                </div>
+            </div>
+            <div class="fsp-card">
+                <div class="fsp-image">
+                    <img src="./assests/Gadgets/Mobile-Phones/Redmi N 12s.webp" alt="">
+                </div>
+                <div class="fsp-txt">
+                    <p>redmi note 12s</p>
+                    <div class="fsp-price">
+                        <p>&#x20A6;2.5M</p>
+                        <span>-50%</span>
+                    </div>
+                    <span id="dcnt">&#x20A6;3m</span>
+                </div>
+                <div class="fsp-btn">
+                    <button id="addToCart">add to cart<iconify-icon
+                        icon="gridicons:add-outline" style="font-size: 15px;"></iconify-icon></button>
+                </div>
+            </div>
+            <div class="fsp-card">
+                <div class="fsp-image">
+                    <img src="./assests/Gadgets/Mobile-Phones/Huawei mate 50.png" alt="">
+                </div>
+                <div class="fsp-txt">
+                    <p>huawei mate 50</p>
+                    <div class="fsp-price">
+                        <p>&#x20A6;3M</p>
+                        <span>-50%</span>
+                    </div>
+                    <span id="dcnt">&#x20A6;3.5m</span>
+                </div>
+                <div class="fsp-btn">
+                    <button id="addToCart">add to cart<iconify-icon
+                        icon="gridicons:add-outline" style="font-size: 15px;"></iconify-icon></button>
+                </div>
+            </div>
+            <div class="fsp-card">
+                <div class="fsp-image">
+                    <img src="./assests/Gadgets/Laptops/Apple 16-inch Mackbook Pro.webp" alt="">
+                </div>
+                <div class="fsp-txt">
+                    <p>apple mackbook pro16-inch</p>
+                    <div class="fsp-price">
+                        <p>&#x20A6;5M</p>
+                        <span>-50%</span>
+                    </div>
+                    <span id="dcnt">&#x20A6;5.5m</span>
+                </div>
+                <div class="fsp-btn">
+                    <button id="addToCart">add to cart<iconify-icon
+                        icon="gridicons:add-outline" style="font-size: 15px;"></iconify-icon></button>
+                </div>
+            </div>
+            <div class="fsp-card">
+                <div class="fsp-image">
+                    <img src="./assests/Gadgets/Laptops/Dell latitude 3189x360.jpg" alt="">
+                </div>
+                <div class="fsp-txt">
+                    <p>dell latitude 3189x360</p>
+                    <div class="fsp-price">
+                        <p>&#x20A6;4.5M</p>
+                        <span>-50%</span>
+                    </div>
+                    <span id="dcnt">&#x20A6;5m</span>
+                </div>
+                <div class="fsp-btn">
+                    <button id="addToCart">add to cart<iconify-icon
+                        icon="gridicons:add-outline" style="font-size: 15px;"></iconify-icon></button>
+                </div>
+            </div>
+            <div class="fsp-card">
+                <div class="fsp-image">
+                    <img src="./assests/Gadgets/Laptops/Hp Ideapad.webp" alt="">
+                </div>
+                <div class="fsp-txt">
+                    <p>hp ideapad</p>
+                    <div class="fsp-price">
+                        <p>&#x20A6;3M</p>
+                        <span>-50%</span>
+                    </div>
+                    <span id="dcnt">&#x20A6;3.5m</span>
+                </div>
+                <div class="fsp-btn">
+                    <button id="addToCart">add to cart<iconify-icon
+                        icon="gridicons:add-outline" style="font-size: 15px;"></iconify-icon></button>
+                </div>
+            </div>
+            <div class="fsp-card">
+                <div class="fsp-image">
+                    <img src="./assests/Gadgets/Laptops/Tecno Megabook s1.webp" alt="">
+                </div>
+                <div class="fsp-txt">
+                    <p>tecno megabook s1</p>
+                    <div class="fsp-price">
+                        <p>&#x20A6;2.5M</p>
+                        <span>-50%</span>
+                    </div>
+                    <span id="dcnt">&#x20A6;3m</span>
+                </div>
+                <div class="fsp-btn">
+                    <button id="addToCart">add to cart<iconify-icon
+                        icon="gridicons:add-outline" style="font-size: 15px;"></iconify-icon></button>
+                </div>
+            </div>
+            <div class="fsp-card">
+                <div class="fsp-image">
+                    <img src="./assests/Gadgets/Laptops/Apple 15-inch Mackbook Air.webp" alt="">
+                </div>
+                <div class="fsp-txt">
+                    <p>apple macbook air15-inch</p>
+                    <div class="fsp-price">
+                        <p>&#x20A6;5m</p>
+                        <span>-50%</span>
+                    </div>
+                    <span id="dcnt">&#x20A6;5.5m</span>
+                </div>
+                <div class="fsp-btn">
+                    <button id="addToCart">add to cart<iconify-icon
+                        icon="gridicons:add-outline" style="font-size: 15px;"></iconify-icon></button>
+                </div>
+            </div>
+            <div class="fsp-card">
+                <div class="fsp-image">
+                    <img src="./assests/Gadgets/Laptops/Dell Latitude 3310.jpg" alt="">
+                </div>
+                <div class="fsp-txt">
+                    <p>dell latitude 3310</p>
+                    <div class="fsp-price">
+                        <p>&#x20A6;2M</p>
+                        <span>-50%</span>
+                    </div>
+                    <span id="dcnt">&#x20A6;2.5m</span>
+                </div>
+                <div class="fsp-btn">
+                    <button id="addToCart">add to cart<iconify-icon
+                        icon="gridicons:add-outline" style="font-size: 15px;"></iconify-icon></button>
+                </div>
+            </div>
+            <div class="fsp-card">
+                <div class="fsp-image">
+                    <img src="./assests/Gadgets/Laptops/Hp Pavilon.webp" alt="">
+                </div>
+                <div class="fsp-txt">
+                    <p>hp pavilon</p>
+                    <div class="fsp-price">
+                        <p>&#x20A6;1M</p>
+                        <span>-50%</span>
+                    </div>
+                    <span id="dcnt">&#x20A6;1.5m</span>
+                </div>
+                <div class="fsp-btn">
+                    <button id="addToCart">add to cart<iconify-icon
+                        icon="gridicons:add-outline" style="font-size: 15px;"></iconify-icon></button>
+                </div>
+            </div>
+            <div class="fsp-card">
+                <div class="fsp-image">
+                    <img src="./assests/Gadgets/Laptops/Tecno Megabook.webp" alt="">
+                </div>
+                <div class="fsp-txt">
+                    <p>tecno megabook</p>
+                    <div class="fsp-price">
+                        <p>&#x20A6;1M</p>
+                        <span>-50%</span>
+                    </div>
+                    <span id="dcnt">&#x20A6;1.5m</span>
+                </div>
+                <div class="fsp-btn">
+                    <button id="addToCart">add to cart<iconify-icon
+                        icon="gridicons:add-outline" style="font-size: 15px;"></iconify-icon></button>
+                </div>
+            </div>
+            <div class="fsp-card">
+                <div class="fsp-image">
+                    <img src="./assests/Gadgets/Ear-Pod/Tecno ebod-sonic1(1).webp" alt="">
+                </div>
+                <div class="fsp-txt">
+                    <p>tecno ebod-sonic</p>
+                    <div class="fsp-price">
+                        <p>&#x20A6;50000</p>
+                        <span>-50%</span>
+                    </div>
+                    <span id="dcnt">&#x20A6;60000</span>
+                </div>
+                <div class="fsp-btn">
+                    <button id="addToCart">add to cart<iconify-icon
+                        icon="gridicons:add-outline" style="font-size: 15px;"></iconify-icon></button>
+                </div>
+            </div>
+            <div class="fsp-card">
+                <div class="fsp-image">
+                    <img src="./assests/Gadgets/Smart-watch/Smart Watch 1(1).webp" alt="">
+                </div>
+                <div class="fsp-txt">
+                    <p>smart watch</p>
+                    <div class="fsp-price">
+                        <p>&#x20A6;60000</p>
+                        <span>-50%</span>
+                    </div>
+                    <span id="dcnt">&#x20A6;80000</span>
+                </div>
+                <div class="fsp-btn">
+                    <button id="addToCart">add to cart<iconify-icon
+                        icon="gridicons:add-outline" style="font-size: 15px;"></iconify-icon></button>
+                </div>
+            </div>
+            <div class="fsp-card">
+                <div class="fsp-image">
+                    <img src="./assests/Gadgets/Ear-Pod/Tecno ebod-true.webp" alt="">
+                </div>
+                <div class="fsp-txt">
+                    <p>tecno ebod true</p>
+                    <div class="fsp-price">
+                        <p>&#x20A6;30000</p>
+                        <span>-50%</span>
+                    </div>
+                    <span id="dcnt">&#x20A6;50000</span>
+                </div>
+                <div class="fsp-btn">
+                    <button id="addToCart">add to cart<iconify-icon
+                        icon="gridicons:add-outline" style="font-size: 15px;"></iconify-icon></button>
+                </div>
+            </div>
+            <div class="fsp-card">
+                <div class="fsp-image">
+                    <img src="./assests/Gadgets/Smart-watch/Smart Watch 2(2)" alt="">
+                </div>
+                <div class="fsp-txt">
+                    <p>smart watch s-series</p>
+                    <div class="fsp-price">
+                        <p>&#x20A6;50000</p>
+                        <span>-50%</span>
+                    </div>
+                    <span id="dcnt">&#x20A6;70000</span>
+                </div>
+                <div class="fsp-btn">
+                    <button id="addToCart">add to cart<iconify-icon
+                        icon="gridicons:add-outline" style="font-size: 15px;"></iconify-icon></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="chop-christmas-deals">
+        <div class="chop-christmas-sales">
+            <div class="chop-christmas-sales-tag">
+                <iconify-icon icon="twemoji:christmas-tree" style="font-size: 35px;"></iconify-icon>
+                <h2>chop christmas sales</h2>
+            </div>
+            <div class="chop-christmas-timer">
+                <span>time left:</span>
+                <span id="countDown"></span>
+            </div>
+            
+        </div>
+
+        <div class="chop-christmas-sales-cards">
+            <div class="chop-christmas-sales-card">
+                <div class="chop-christmas-sales-image">
+                    <img src="./assests/Clothes/Mc99 winter edition.webp" alt="">
+                </div>
+                <div class="chop-christmas-sales-txt">
+                    <p>Mc99 Winter edition</p>
+                  <div class="chop-christmas-sales-price">
+                     <p>&#x20A6;50000</p>
+                     <span>-50%</span>
+                  </div>
+                </div>   
+                <span id="discnt">&#x20A6;70000</span>
+                <div class="chop-christmas-sales-btn">
+                    <button id="addToCart">add to cart<iconify-icon
+                        icon="gridicons:add-outline" style="font-size: 15px;"></iconify-icon></button>
+                </div>
+            </div>
+            <div class="chop-christmas-sales-card">
+                <div class="chop-christmas-sales-image">
+                    <img src="./assests/Clothes/Mc99 winter edition.webp" alt="">
+                </div>
+                <div class="chop-christmas-sales-txt">
+                    <p>Mc99 Winter edition</p>
+                  <div class="chop-christmas-sales-price">
+                     <p>&#x20A6;50000</p>
+                     <span>-50%</span>
+                  </div>
+                </div>   
+                <span id="discnt">&#x20A6;70000</span>
+                <div class="chop-christmas-sales-btn">
+                    <button id="addToCart">add to cart<iconify-icon
+                        icon="gridicons:add-outline" style="font-size: 15px;"></iconify-icon></button>
+                </div>
+            </div>
+            <div class="chop-christmas-sales-card">
+                <div class="chop-christmas-sales-image">
+                    <img src="./assests/Clothes/Mc99 winter edition.webp" alt="">
+                </div>
+                <div class="chop-christmas-sales-txt">
+                    <p>Mc99 Winter edition</p>
+                  <div class="chop-christmas-sales-price">
+                     <p>&#x20A6;50000</p>
+                     <span>-50%</span>
+                  </div>
+                </div>   
+                <span id="discnt">&#x20A6;70000</span>
+                <div class="chop-christmas-sales-btn">
+                    <button id="addToCart">add to cart<iconify-icon
+                        icon="gridicons:add-outline" style="font-size: 15px;"></iconify-icon></button>
+                </div>
+            </div>
+            <div class="chop-christmas-sales-card">
+                <div class="chop-christmas-sales-image">
+                    <img src="./assests/Clothes/Mc99 winter edition.webp" alt="">
+                </div>
+                <div class="chop-christmas-sales-txt">
+                    <p>Mc99 Winter edition</p>
+                  <div class="chop-christmas-sales-price">
+                     <p>&#x20A6;50000</p>
+                     <span>-50%</span>
+                  </div>
+                </div>   
+                <span id="discnt">&#x20A6;70000</span>
+                <div class="chop-christmas-sales-btn">
+                    <button id="addToCart">add to cart<iconify-icon
+                        icon="gridicons:add-outline" style="font-size: 15px;"></iconify-icon></button>
+                </div>
+            </div>
+            <div class="chop-christmas-sales-card">
+                <div class="chop-christmas-sales-image">
+                    <img src="./assests/Clothes/Mc99 winter edition.webp" alt="">
+                </div>
+                <div class="chop-christmas-sales-txt">
+                    <p>Mc99 Winter edition</p>
+                  <div class="chop-christmas-sales-price">
+                     <p>&#x20A6;50000</p>
+                     <span>-50%</span>
+                  </div>
+                </div>   
+                <span id="discnt">&#x20A6;70000</span>
+                <div class="chop-christmas-sales-btn">
+                    <button id="addToCart">add to cart<iconify-icon
+                        icon="gridicons:add-outline" style="font-size: 15px;"></iconify-icon></button>
+                </div>
+            </div>
+            <div class="chop-christmas-sales-card">
+                <div class="chop-christmas-sales-image">
+                    <img src="./assests/Clothes/Mc99 winter edition.webp" alt="">
+                </div>
+                <div class="chop-christmas-sales-txt">
+                    <p>Mc99 Winter edition</p>
+                  <div class="chop-christmas-sales-price">
+                     <p>&#x20A6;50000</p>
+                     <span>-50%</span>
+                  </div>
+                </div>   
+                <span id="discnt">&#x20A6;70000</span>
+                <div class="chop-christmas-sales-btn">
+                    <button id="addToCart">add to cart<iconify-icon
+                        icon="gridicons:add-outline" style="font-size: 15px;"></iconify-icon></button>
+                </div>
+            </div>
+            <div class="chop-christmas-sales-card">
+                <div class="chop-christmas-sales-image">
+                    <img src="./assests/Clothes/Mc99 winter edition.webp" alt="">
+                </div>
+                <div class="chop-christmas-sales-txt">
+                    <p>Mc99 Winter edition</p>
+                  <div class="chop-christmas-sales-price">
+                     <p>&#x20A6;50000</p>
+                     <span>-50%</span>
+                  </div>
+                </div>   
+                <span id="discnt">&#x20A6;70000</span>
+                <div class="chop-christmas-sales-btn">
+                    <button id="addToCart">add to cart<iconify-icon
+                        icon="gridicons:add-outline" style="font-size: 15px;"></iconify-icon></button>
+                </div>
+            </div>
+            <div class="chop-christmas-sales-card">
+                <div class="chop-christmas-sales-image">
+                    <img src="./assests/Clothes/Mc99 winter edition.webp" alt="">
+                </div>
+                <div class="chop-christmas-sales-txt">
+                    <p>Mc99 Winter edition</p>
+                  <div class="chop-christmas-sales-price">
+                     <p>&#x20A6;50000</p>
+                     <span>-50%</span>
+                  </div>
+                </div>   
+                <span id="discnt">&#x20A6;70000</span>
+                <div class="chop-christmas-sales-btn">
+                    <button id="addToCart">add to cart<iconify-icon
+                        icon="gridicons:add-outline" style="font-size: 15px;"></iconify-icon></button>
+                </div>
+            </div>
+            <div class="chop-christmas-sales-card">
+                <div class="chop-christmas-sales-image">
+                    <img src="./assests/Clothes/Mc99 winter edition.webp" alt="">
+                </div>
+                <div class="chop-christmas-sales-txt">
+                    <p>Mc99 Winter edition</p>
+                  <div class="chop-christmas-sales-price">
+                     <p>&#x20A6;50000</p>
+                     <span>-50%</span>
+                  </div>
+                </div>   
+                <span id="discnt">&#x20A6;70000</span>
+                <div class="chop-christmas-sales-btn">
+                    <button id="addToCart">add to cart<iconify-icon
+                        icon="gridicons:add-outline" style="font-size: 15px;"></iconify-icon></button>
+                </div>
+            </div>
+            <div class="chop-christmas-sales-card">
+                <div class="chop-christmas-sales-image">
+                    <img src="./assests/Clothes/Mc99 winter edition.webp" alt="">
+                </div>
+                <div class="chop-christmas-sales-txt">
+                    <p>Mc99 Winter edition</p>
+                  <div class="chop-christmas-sales-price">
+                     <p>&#x20A6;50000</p>
+                     <span>-50%</span>
+                  </div>
+                </div>   
+                <span id="discnt">&#x20A6;70000</span>
+                <div class="chop-christmas-sales-btn">
+                    <button id="addToCart">add to cart<iconify-icon
+                        icon="gridicons:add-outline" style="font-size: 15px;"></iconify-icon></button>
+                </div>
+            </div>
+            <div class="chop-christmas-sales-card">
+                <div class="chop-christmas-sales-image">
+                    <img src="./assests/Clothes/Mc99 winter edition.webp" alt="">
+                </div>
+                <div class="chop-christmas-sales-txt">
+                    <p>Mc99 Winter edition</p>
+                  <div class="chop-christmas-sales-price">
+                     <p>&#x20A6;50000</p>
+                     <span>-50%</span>
+                  </div>
+                </div>   
+                <span id="discnt">&#x20A6;70000</span>
+                <div class="chop-christmas-sales-btn">
+                    <button id="addToCart">add to cart<iconify-icon
+                        icon="gridicons:add-outline" style="font-size: 15px;"></iconify-icon></button>
+                </div>
+            </div>
+            <div class="chop-christmas-sales-card">
+                <div class="chop-christmas-sales-image">
+                    <img src="./assests/Clothes/Mc99 winter edition.webp" alt="">
+                </div>
+                <div class="chop-christmas-sales-txt">
+                    <p>Mc99 Winter edition</p>
+                  <div class="chop-christmas-sales-price">
+                     <p>&#x20A6;50000</p>
+                     <span>-50%</span>
+                  </div>
+                </div>   
+                <span id="discnt">&#x20A6;70000</span>
+                <div class="chop-christmas-sales-btn">
+                    <button id="addToCart">add to cart<iconify-icon
+                        icon="gridicons:add-outline" style="font-size: 15px;"></iconify-icon></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="banner-images">
+        <img src="./assests/n7.jpg" alt="banner2">
+        <img src="./assests/n6.jpg" alt="banner1">
+    </section>
+
+    <section class="collections">
+        <div class="shop-collections-tag">
+            <img src="./assests/shopsphere-logo-w.png" alt="">
+            <h2>shop from our collections</h2>
+        </div>
+
+        <div class="deals-cards">
+            <div class="deals-card">
+                <div class="deals-bgrnd">
+                    <h3>Gadgets Deals</h3>
+                </div>
+            </div>
+            <div class="deals-card">
+                <div class="deals-bgrnd">
+                    <h3>Gadgets Deals</h3>
+                </div>
+            </div>
+            <div class="deals-card">
+                <div class="deals-bgrnd">
+                    <h3>Gadgets Deals</h3>
+                </div>
+            </div>
+            <div class="deals-card">
+                <div class="deals-bgrnd">
+                    <h3>Gadgets Deals</h3>
+                </div>
+            </div>
+            <div class="deals-card">
+                <div class="deals-bgrnd">
+                    <h3>Gadgets Deals</h3>
+                </div>
+            </div>
+            <div class="deals-card">
+                <div class="deals-bgrnd">
+                    <h3>Gadgets Deals</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="phone">
+        <div class="phone-deals">
+            <iconify-icon icon="twemoji:mobile-phone" style="font-size: 35px;"></iconify-icon>
+            <h2>phone deals</h2>
+        </div>
+        <div class="phone-deals-cards">
+            <div class="phone-deals-card">
+                <div class="phone-deals-bgrnd">
+                    <h3>xiaomi</h3>
+                </div>    
+            </div>
+            <div class="phone-deals-card">
+                <div class="phone-deals-bgrnd">
+                    <h3>xiaomi</h3>
+                </div>    
+            </div>
+            <div class="phone-deals-card">
+                <div class="phone-deals-bgrnd">
+                    <h3>xiaomi</h3>
+                </div>    
+            </div>
+            <div class="phone-deals-card">
+                <div class="phone-deals-bgrnd">
+                    <h3>xiaomi</h3>
+                </div>    
+            </div>
+            <div class="phone-deals-card">
+                <div class="phone-deals-bgrnd">
+                    <h3>xiaomi</h3>
+                </div>    
+            </div>
+            <div class="phone-deals-card">
+                <div class="phone-deals-bgrnd">
+                    <h3>xiaomi</h3>
+                </div>    
+            </div>
+           
+        </div>   
+    </section>
+
+    <section class="laptop">
+        <div class="laptop-deals">
+            <iconify-icon icon="fluent-emoji-flat:laptop" style="font-size: 35px;"></iconify-icon>
+            <h2>laptops deals</h2>
+        </div>
+        <div class="laptop-deals-cards">
+            <div class="laptop-deals-card">
+                <div class="laptop-deals-bgrnd">
+                    <h3>Macbook</h3>
+                </div>    
+            </div>
+            <div class="laptop-deals-card">
+                <div class="laptop-deals-bgrnd">
+                    <h3>xiaomi</h3>
+                </div>    
+            </div>
+            <div class="laptop-deals-card">
+                <div class="laptop-deals-bgrnd">
+                    <h3>xiaomi</h3>
+                </div>    
+            </div>
+            <div class="laptop-deals-card">
+                <div class="laptop-deals-bgrnd">
+                    <h3>xiaomi</h3>
+                </div>    
+            </div>
+           
+           
+        </div>   
+    </section>
+
+    <section class="clothes">
+        <div class="clothes-deals">
+            <iconify-icon icon="icon-park:clothes-windbreaker" style="font-size: 35px;"></iconify-icon>
+            <h2>clothes deals</h2>
+        </div>
+        <div class="clothes-deals-cards">
+            <div class="clothes-deals-card">
+                <div class="clothes-deals-bgrnd">
+                    <h3>Winter</h3>
+                </div>    
+            </div>
+            <div class="clothes-deals-card">
+                <div class="clothes-deals-bgrnd">
+                    <h3>xiaomi</h3>
+                </div>    
+            </div>
+            <div class="clothes-deals-card">
+                <div class="clothes-deals-bgrnd">
+                    <h3>xiaomi</h3>
+                </div>    
+            </div>
+            <div class="clothes-deals-card">
+                <div class="clothes-deals-bgrnd">
+                    <h3>xiaomi</h3>
+                </div>    
+            </div>
+           
+           
+        </div>   
+    </section>
+
+    <section class="closing-banner">
+        <img src="./assests/n4resized.jpg" alt="banner2">
+        <img src="./assests/n5resized.jpg" alt="banner1">
+    </section>
+
+
+    <footer>
+        <div class="footer-container">
+          <div class="footer-column">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Products</a></li>
+              <li><a href="#">Store Locator</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4>Explore ShopSphere</h4>
+            <ul>
+              <li><a href="#">Gadgets</a></li>
+              <li><a href="#">Groceries</a></li>
+              <li><a href="#">Clothes</a></li>
+              <li><a href="#">Store</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4>Terms and Conditions</h4>
+            <ul>
+              <li><a href="#">Cookie Policy</a></li>
+              <li><a href="#">Data Privacy Statement</a></li>
+              <li><a href="#">Website Usage Policy</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4>Contact Us</h4>
+            <address>
+              103 Governors Road Ikotun Lagos<br>
+              Telephone: <a href="tel:+2349071382190">+2349071382190</a>
+            </address>
+          </div>
+        </div>
+      </footer>
+      <div class="copyright">
+        <p id="copy ">&copy; Babtech Computer Students. All rights reserved.</p>
+      </div>
+
+      <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+      <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+      <script src="./index.js"></script>
+      <script src="./script.js"></script>
+      <script src="./app.js"></script>
+      <script src="./cart.js"></script>
+      
+</body>
+
+</html>
